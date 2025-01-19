@@ -21,6 +21,13 @@
     font-family: Figtree-semibold;
     src: url(assets/fonts/static/Figtree-SemiBold.ttf);
 }
+@media (max-width: 375px) {
+    .card {
+       margin-left: 12%;
+       margin-right: 12%;
+    }
+ }
+ 
 body {
     background-color: var(--yellow);
     height: 100vh;
@@ -38,6 +45,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: clamp(350px, 384px, 400px);
+    
     border: 1px solid black;
     border-radius: 4%;
     height: 522px;
